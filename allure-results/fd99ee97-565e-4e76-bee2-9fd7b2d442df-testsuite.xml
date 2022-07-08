@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657282118233' stop='1657282125333'>
+    <name>I want to verify which users can login and what they see: I verify users can login</name>
+    <title>I want to verify which users can login and what they see: I verify users can login</title>
+    <test-cases>
+        <test-case start='1657282118233' status='passed' stop='1657282118235'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657282118235' status='passed' stop='1657282119598'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8c5b29e1-6df8-41c1-8ee3-593c796767f0-attachment.png' type='image/png' size='47784'/>
+            </attachments>
+        </test-case>
+        <test-case start='1657282119598' status='passed' stop='1657282125130'>
+            <name>When I login with standard_user and secret_sauce</name>
+            <title>When I login with standard_user and secret_sauce</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6e2f3426-6236-4f88-bfc1-4d9a5ef629a7-attachment.png' type='image/png' size='588488'/>
+            </attachments>
+        </test-case>
+        <test-case start='1657282125130' status='failed' stop='1657282125332'>
+            <name>Then I should verfiy users can't login</name>
+            <title>Then I should verfiy users can't login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='64db70f0-c80b-4dac-8f92-dd7f25eb76a7-attachment.png' type='image/png' size='588488'/>
+            </attachments>
+            <failure>
+                <message>AssertionError [ERR_ASSERTION]: Something went wrong</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Something went wrong
+                    + expected - actual
+                
+                    -false
+                    +true
+                
+                    at World.&lt;anonymous> (C:\Users\icioncu\OneDrive - ENDAVA\Desktop\Pocu\Javascript\features\step-definitions\then.js:8:11)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657282125332' status='passed' stop='1657282125332'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657279979784' stop='1657279997921'>
+    <name>I want to verify which users can login and what they see: I verify users can join</name>
+    <title>I want to verify which users can login and what they see: I verify users can join</title>
+    <test-cases>
+        <test-case start='1657279979784' status='passed' stop='1657279979785'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657279979786' status='passed' stop='1657279992189'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2b34e7cd-336e-428b-9a42-ecc57dd8a6e9-attachment.png' type='image/png' size='47784'/>
+            </attachments>
+        </test-case>
+        <test-case start='1657279992189' status='passed' stop='1657279997740'>
+            <name>When I login with standard_user and secret_sauce</name>
+            <title>When I login with standard_user and secret_sauce</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='af8b728a-c094-40c3-9f2f-105de0870f97-attachment.png' type='image/png' size='586849'/>
+            </attachments>
+        </test-case>
+        <test-case start='1657279997740' status='passed' stop='1657279997920'>
+            <name>Then I should verfiy users arrived on  website</name>
+            <title>Then I should verfiy users arrived on  website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a8eaab64-6c25-40ff-b448-260bc2024f59-attachment.png' type='image/png' size='586849'/>
+            </attachments>
+        </test-case>
+        <test-case start='1657279997920' status='passed' stop='1657279997921'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
